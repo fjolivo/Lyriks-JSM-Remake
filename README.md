@@ -1,1 +1,1 @@
-# Spotify-JSM-Remake
+# Lyrics-JSM-Remake
