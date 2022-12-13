@@ -8,7 +8,7 @@ const SongCard = ({ song, isPlaying, activeSong, i, data }) => {
   const dispatch = useDispatch();
 
   const handlePauseClick = () => {
-    dispatch(playPause(false))
+    dispatch(playPause(false));
   }
 
   const handlePlayClick = () => {
@@ -23,7 +23,7 @@ const SongCard = ({ song, isPlaying, activeSong, i, data }) => {
             isPlaying={isPlaying}
             activeSong={activeSong}
             song={song}
-            handlePause={hajdlePauseClick}
+            handlePause={handlePauseClick}
             handlePlay={handlePlayClick}
 
           />
