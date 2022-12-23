@@ -27,6 +27,7 @@ const ArtistDetails = () => {
         isPlaying={isPlaying}
         activeSong={activeSong}
       />
+
     </div>
   );
 };
